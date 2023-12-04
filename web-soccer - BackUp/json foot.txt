@@ -1,0 +1,212 @@
+https://foot-stat.onrender.com/myapi/data/defense-general
+
+GET /myapi/data/defense-general
+
+HTTP 200 OK
+Allow: GET, HEAD, OPTIONS
+Content-Type: application/json
+Vary: Accept
+
+[
+    {
+        "equipe": "Tottenham",
+        "competition": "Premier League",
+        "tirs_pm": "13.54",
+        "tacles_pm": "20.23",
+        "interceptions_pm": "8.62",
+        "fautes_pm": "11.62",
+        "hors_jeux_pm": "2.38",
+        "note": "6.80"
+    },
+    {
+        "equipe": "Everton",
+        "competition": "Premier League",
+        "tirs_pm": "12.15",
+        "tacles_pm": "20.08",
+        "interceptions_pm": "9.31",
+        "fautes_pm": "12.00",
+        "hors_jeux_pm": "1.69",
+        "note": "6.63"
+    },
+    {
+        "equipe": "Brest",
+        "competition": "Ligue 1",
+        "tirs_pm": "11.50",
+        "tacles_pm": "19.92",
+        "interceptions_pm": "9.75",
+        "fautes_pm": "13.33",
+        "hors_jeux_pm": "0.92",
+        "note": "6.67"
+    },
+    {
+        "equipe": "Sheff Utd",
+        "competition": "Premier League",
+        "tirs_pm": "19.00",
+        "tacles_pm": "19.77",
+        "interceptions_pm": "9.15",
+        "fautes_pm": "11.85",
+        "hors_jeux_pm": "1.92",
+        "note": "6.34"
+    },
+    {
+        "equipe": "Valencia",
+        "competition": "LaLiga",
+        "tirs_pm": "9.71",
+        "tacles_pm": "19.64",
+        "interceptions_pm": "9.50",
+        "fautes_pm": "13.79",
+        "hors_jeux_pm": "1.29",
+        "note": "6.57"
+    },
+    {
+        "equipe": "Sevilla",
+        "competition": "LaLiga",
+        "tirs_pm": "12.38",
+        "tacles_pm": "19.62",
+        "interceptions_pm": "8.46",
+        "fautes_pm": "12.92",
+        "hors_jeux_pm": "2.69",
+        "note": "6.66"
+    },
+    {
+        "equipe": "Monaco",
+        "competition": "Ligue 1",
+        "tirs_pm": "10.08",
+        "tacles_pm": "19.54",
+        "interceptions_pm": "11.15",
+        "fautes_pm": "15.23",
+        "hors_jeux_pm": "2.69",
+        "note": "6.78"
+    },
+    {
+        "equipe": "Strasbourg",
+        "competition": "Ligue 1",
+        "tirs_pm": "13.08",
+        "tacles_pm": "19.50",
+        "interceptions_pm": "10.58",
+        "fautes_pm": "13.83",
+        "hors_jeux_pm": "0.83",
+        "note": "6.50"
+    },
+    {
+        "equipe": "Las Palmas",
+        "competition": "LaLiga",
+        "tirs_pm": "11.86",
+        "tacles_pm": "19.50",
+        "interceptions_pm": "7.93",
+        "fautes_pm": "11.00",
+        "hors_jeux_pm": "2.07",
+        "note": "6.57"
+    },
+    {
+        "equipe": "Crystal Palace",
+        "competition": "Premier League",
+        "tirs_pm": "12.31",
+        "tacles_pm": "19.46",
+        "interceptions_pm": "8.69",
+        "fautes_pm": "11.54",
+        "hors_jeux_pm": "1.15",
+        "note": "6.71"
+    },
+    {
+        "equipe": "Wolves",
+        "competition": "Premier League",
+        "tirs_pm": "14.46",
+        "tacles_pm": "19.15",
+        "interceptions_pm": "8.69",
+        "fautes_pm": "13.77",
+        "hors_jeux_pm": "2.15",
+        "note": "6.63"
+    },
+    {
+        "equipe": "Reims",
+        "competition": "Ligue 1",
+        "tirs_pm": "13.23",
+        "tacles_pm": "19.15",
+        "interceptions_pm": "10.69",
+        "fautes_pm": "14.62",
+        "hors_jeux_pm": "3.31",
+        "note": "6.67"
+    },
+    {
+        "equipe": "PSG",
+        "competition": "Ligue 1",
+        "tirs_pm": "12.08",
+        "tacles_pm": "18.92",
+        "interceptions_pm": "7.92",
+        "fautes_pm": "9.85",
+        "hors_jeux_pm": "1.46",
+        "note": "7.04"
+    },
+    {
+        "equipe": "Mallorca",
+        "competition": "LaLiga",
+        "tirs_pm": "13.57",
+        "tacles_pm": "18.64",
+        "interceptions_pm": "9.21",
+        "fautes_pm": "16.50",
+        "hors_jeux_pm": "3.71",
+        "note": "6.49"
+    },
+    {
+        "equipe": "Bochum",
+        "competition": "Bundesliga",
+        "tirs_pm": "15.42",
+        "tacles_pm": "18.50",
+        "interceptions_pm": "9.58",
+        "fautes_pm": "13.50",
+        "hors_jeux_pm": "2.25",
+        "note": "6.51"
+    },
+    {
+        "equipe": "Nottingham Forest",
+        "competition": "Premier League",
+        "tirs_pm": "13.69",
+        "tacles_pm": "18.46",
+        "interceptions_pm": "9.38",
+        "fautes_pm": "11.00",
+        "hors_jeux_pm": "2.46",
+        "note": "6.57"
+    },
+    {
+        "equipe": "Bournemouth",
+        "competition": "Premier League",
+        "tirs_pm": "16.38",
+        "tacles_pm": "18.46",
+        "interceptions_pm": "8.38",
+        "fautes_pm": "12.46",
+        "hors_jeux_pm": "1.31",
+        "note": "6.47"
+    },
+    {
+        "equipe": "Montpellier",
+        "competition": "Ligue 1",
+        "tirs_pm": "13.92",
+        "tacles_pm": "18.23",
+        "interceptions_pm": "8.92",
+        "fautes_pm": "12.15",
+        "hors_jeux_pm": "2.31",
+        "note": "6.66"
+    },
+    {
+        "equipe": "FC Koln",
+        "competition": "Bundesliga",
+        "tirs_pm": "16.75",
+        "tacles_pm": "18.17",
+        "interceptions_pm": "10.25",
+        "fautes_pm": "11.75",
+        "hors_jeux_pm": "1.67",
+        "note": "6.46"
+    },
+    {
+        "equipe": "Clermont Foot",
+        "competition": "Ligue 1",
+        "tirs_pm": "14.77",
+        "tacles_pm": "18.08",
+        "interceptions_pm": "10.23",
+        "fautes_pm": "12.15",
+        "hors_jeux_pm": "1.69",
+        "note": "6.53"
+    }
+]
+

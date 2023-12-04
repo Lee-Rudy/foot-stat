@@ -1,0 +1,24 @@
+<!-- https://foot-stat.onrender.com/myapi/data/attaque-exterieur
+https://foot-stat.onrender.com/myapi/data/attaque-domicil
+https://foot-stat.onrender.com/myapi/data/attaque-general
+
+
+https://foot-stat.onrender.com/myapi/data/defense-exterieur
+https://foot-stat.onrender.com/myapi/data/defense-domicil
+https://foot-stat.onrender.com/myapi/data/defense-general
+
+https://foot-stat.onrender.com/myapi/data/general-general
+https://foot-stat.onrender.com/myapi/data/general-domicil
+https://foot-stat.onrender.com/myapi/data/general-exterieur -->
+
+data/general-general
+data/general-domicil
+data/general-exterieur
+
+data/defense-general
+data/defense-domicil
+data/defense-exterieur
+
+data/attaque-general
+data/attaque-domicil
+data/attaque-exterieur

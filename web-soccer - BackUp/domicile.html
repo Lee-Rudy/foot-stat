@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="link">
+        <a href="index.html">General</a>
+        <a href="#">attaque-Domicile</a>
+        <a href="exterieur.html">attaque-Exterieur</a>
+        <a href="defenseDomicil.html">defense-domicil</a>
+        <a href="defenseExterieur.html">defense-Exterieur</a>
+        <a href="defenseGeneral.html">defense-general</a>
+
+    </div>
+    
+    <div class="equipe">
+        <h1>Stat-Equipe</h1>
+    </div>
+    
+    <div class="container">
+
+        <table id="equipeTable">
+            <!-- Tableau des équipes -->
+            <thead>
+                <tr>
+                    <th>Equipe</th>
+                    <th>Competition</th>
+                    <th>Tirs par match</th>
+                    <th>Tirs cadrés par match</th>
+                    <th>Dribbles par match</th>
+                    <th>Fautes subies par match</th>
+                    <th>Note</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Les données seront ajoutées ici -->
+            </tbody>
+        </table>
+
+    </div>
+    <!-- stat-Joueur --> 
+
+    <script>
+        // Fonction pour effectuer la requête AJAX
+        function getData(url, callback) {
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    var data = JSON.parse(xhr.responseText);
+                    callback(data);
+                }
+            };
+            xhr.open("GET", url, true);
+            xhr.send();
+        }
+
+        // Fonction pour mettre à jour le tableau des équipes
+        function updateEquipeTable(data) {
+            var table = document.getElementById("equipeTable");
+            var tbody = document.createElement("tbody");
+
+            data.forEach(function(item) {
+                var row = tbody.insertRow();
+                var keysInOrder = ['equipe', 'competition', 'tirs_pm', 'tirs_ca_pm', 'dribbles_pm', 'fautes_subies_pm', 'note'];
+
+                keysInOrder.forEach(function(key) {
+                    var cell = row.insertCell();
+                    cell.appendChild(document.createTextNode(item[key]));
+                });
+            });
+
+            table.appendChild(tbody);
+        }
+
+        // URL du lien fourni
+        var apiUrl = "https://foot-stat.onrender.com/myapi/data/attaque-domicil";
+
+
+        // Appel de la fonction pour obtenir les données JSON
+        getData(apiUrl, function(data) {
+            // Mise à jour du tableau des équipes avec les données JSON
+            updateEquipeTable(data);
+        });
+    </script>
+</body>
+</html>
